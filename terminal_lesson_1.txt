@@ -1,0 +1,9 @@
+cd
+mkdir
+touch
+vim
+pwd
+rm
+grep
+mv
+less
