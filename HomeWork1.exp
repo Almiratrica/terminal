@@ -1,0 +1,19 @@
+#!/bin/bash
+mkdir group_33
+cd group_33
+mkdir dir_1 dir_2 dir_3
+cd dir_1
+echo > 1.txt
+echo > 2.txt
+echo > 3.txt
+echo > 1.json
+echo > 2.json
+mkdir dir_1 dir_2 dir_3
+ls
+mv 1.txt dir_1
+mv 1.json dir_2
+echo -
+echo peremechenie
+echo -
+find -name 1.txt
+find -name 1.json
